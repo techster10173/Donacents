@@ -1,0 +1,25 @@
+p, h1{
+    text-align: center;
+}
+#fullMenu{
+    float:right;
+}
+#fullAmount{
+    font-size: 10rem;
+    text-align: center;
+    margin: 0.25em;
+}
+#fullMenu,#saveAmount {
+    width: 49%;
+    color: ghostwhite;
+    background: #8299AD;
+    padding: 1%;
+    border: none;
+    font-size: 1.5em;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#fullMenu:hover, #saveAmount:hover{
+    background: #96B5C7;
+}

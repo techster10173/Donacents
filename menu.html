@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dona-Cents</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<h1 id="fullAmount"></h1>
+<div style="text-align: center; font-size: 2em">Accumulated Rounds</div>
+<form action="https://www.paypal.com/webapps/adaptivepayment/flow/pay" target="PPDGFrame">
+    <input id="type" type="hidden" name="expType" value="light">
+    <input id="paykey" type="hidden" name="paykey" value="AP-...">
+    <input id="preapprovalkey" type="hidden" name="preapprovalkey" value="PA-...">
+    <input type="submit" id="submitBtn" value="Pay with PayPal">
+</form>
+</body>
+<footer>
+    Created my free logo at LogoMakr.com
+</footer>
+<script src="menuScript.js" type="text/javascript"></script>
+</html>

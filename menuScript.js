@@ -1,0 +1,1 @@
+document.getElementById("fullAmount").innerText = "$" + localStorage.getItem("totalAmount");
